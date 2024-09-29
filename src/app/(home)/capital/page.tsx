@@ -37,30 +37,29 @@ function page() {
         {/**grid */}
         <div className='gap-4 px-8 w-full h-[120vh] flex items-center justify-center'>
           <div className='grid grid-rows-3 grid-cols-5 gap-4 w-full h-full '>
+            {/**item 0 */}
             <div className='bg-blue-500 col-span-2 flex items-center justify-center text-white text-lg rounded-xl'>
               Item 1 (2 cols)
             </div>
 
             {/**item 1 */}
-            <div className=' flex items-center justify-center text-white text-lg rounded-xl'>
-              <div className='w-[253.50px] h-[259.50px] relative'>
-                <div className='w-[253.50px] h-[259.50px] left-0 top-0 absolute bg-[#f8f8f8] rounded-[18.97px] border border-black/10' />
-                <div className="left-[19.11px] top-[18.97px] absolute text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
-                  Active Investors
-                </div>
-                <div className='w-[171.65px] h-[171.65px] left-[40.93px] top-[53.86px] absolute'>
-                  <div className='w-[171.65px] h-[171.65px] left-0 top-0 absolute rounded-full border-4 border-white' />
-                  <div className='w-[171.65px] h-[171.65px] left-0 top-0 absolute rounded-full border-4 border-indigo-600/30' />
-                  <div className='w-[171.65px] h-[171.65px] left-0 top-0 absolute rounded-full border-4 border-indigo-600/30' />
-                  <div className='w-[110px] h-[75.22px] left-[30.82px] top-[46.47px] absolute flex-col justify-start items-center gap-[14.22px] inline-flex'>
-                    <div className="text-[#18191c] text-[37.50px] font-extrabold font-['Urbanist'] leading-[48.25px]">
-                      853
-                    </div>
-                    <div className="text-center text-[#8f8f8f] text-sm font-medium font-['Urbanist'] leading-[17.07px]">
-                      Total Number of
-                      <br />
-                      Active Investors
-                    </div>
+            <div className=' flex items-center w-full h-full relative justify-center text-white text-lg rounded-xl'>
+              <div className='w-full h-full left-0 top-0 absolute bg-[#f8f8f8] rounded-[18.97px] border border-black/10' />
+              <div className="left-[19.11px] top-[18.97px] absolute text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
+                Active Investors
+              </div>
+              <div className='w-[171.65px] h-[171.65px] left-[40.93px] top-[53.86px] absolute'>
+                <div className='w-[171.65px] h-[171.65px] left-0 top-0 absolute rounded-full border-4 border-white' />
+                <div className='w-[171.65px] h-[171.65px] left-0 top-0 absolute rounded-full border-4 border-indigo-600/30' />
+                <div className='w-[171.65px] h-[171.65px] left-0 top-0 absolute rounded-full border-4 border-indigo-600/30' />
+                <div className='w-[110px] h-[75.22px] left-[30.82px] top-[46.47px] absolute flex-col justify-start items-center gap-[14.22px] inline-flex'>
+                  <div className="text-[#18191c] text-[37.50px] font-extrabold font-['Urbanist'] leading-[48.25px]">
+                    853
+                  </div>
+                  <div className="text-center text-[#8f8f8f] text-sm font-medium font-['Urbanist'] leading-[17.07px]">
+                    Total Number of
+                    <br />
+                    Active Investors
                   </div>
                 </div>
               </div>
@@ -83,28 +82,28 @@ function page() {
             </div>
 
             {/**item 3 */}
-            <div className=' 1 flex items-center justify-center text-white text-lg rounded-xl'>
-              <div className='w-[256.92px] h-[259.50px] relative'>
-                <div className='w-[256.92px] h-[259.50px] left-0 top-0 absolute bg-[#f4f4ff] rounded-[18.97px] border border-indigo-600/10' />
-                <div className="left-[19.47px] top-[19.40px] absolute text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
-                  Top Performing pool
-                </div>
-                <div className='w-36 h-[145.50px] left-[56.15px] top-[70.50px] absolute rounded-full border-8 border-white' />
-                <div className='w-36 h-[145.50px] left-[56.91px] top-[69.75px] absolute rounded-full border-8 border-indigo-600' />
-                <div className="w-[73.66px] h-[26.85px] left-[91.40px] top-[129.75px] absolute text-[#18191c] text-[37.50px] font-extrabold font-['Urbanist'] leading-[45.55px]">
-                  75%
-                </div>
+            <div className=' w-full h-full relative flex items-center justify-center text-white text-lg rounded-xl'>
+              <div className='w-full h-full left-0 top-0 absolute bg-[#f4f4ff] rounded-[18.97px] border border-indigo-600/10' />
+              <div className="left-[19.47px] top-[19.40px] absolute text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
+                Top Performing pool
+              </div>
+              <div className='w-36 h-[145.50px] left-[56.15px] top-[70.50px] absolute rounded-full border-8 border-white' />
+              <div className='w-36 h-[145.50px] left-[56.91px] top-[69.75px] absolute rounded-full border-8 border-indigo-600' />
+              <div className="w-[73.66px] h-[26.85px] left-[91.40px] top-[129.75px] absolute text-[#18191c] text-[37.50px] font-extrabold font-['Urbanist'] leading-[45.55px]">
+                75%
               </div>
             </div>
 
             {/**item 4 */}
-            <div className='flex flex-col  justify-center align-center gap-[18.97px] inline-flex text-white text-lg rounded-xl'>
-              <div className="text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
-                Last Month’s Investment
-              </div>
-              <div className='flex-col justify-start items-start gap-[51.21px] flex'>
-                <div className="text-[#18191c] text-[37.50px] font-extrabold font-['Urbanist'] leading-[45.55px]">
-                  563K
+            <div className='flex flex-col  justify-center align-center gap-[18.97px] inline-flex text-white text-lg rounded-xl '>
+              <div className='bg-[#f8f8f8] p-6 rounded-[18.97px] border border-black/10'>
+                <div className="text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
+                  Last Month’s Investment
+                </div>
+                <div className='flex-col justify-start items-start gap-[51.21px] flex'>
+                  <div className="text-[#18191c] text-[37.50px] font-extrabold font-['Urbanist'] leading-[45.55px]">
+                    563K
+                  </div>
                 </div>
               </div>
             </div>
@@ -116,7 +115,6 @@ function page() {
 
             {/**item 6 */}
             <div className='relative flex items-center justify-center text-white text-lg rounded-xl'>
-              {/* <div className=' relative'> */}
               <div className='w-full h-full left-0 top-0 absolute bg-[#f8f8f8] rounded-[18.97px] border border-black/10' />
               <div className="left-[18.90px] top-[18.97px] absolute text-[#18191c] text-[15px] font-medium font-['Urbanist'] leading-[17.39px]">
                 Top Investors
@@ -180,7 +178,6 @@ function page() {
                   </div>
                 </div>
               </div>
-              {/* </div> */}
             </div>
 
             {/**item 7 */}
